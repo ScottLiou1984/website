@@ -6,16 +6,25 @@ export default function Home() {
     <>
       <Navigation />
       <main className="pt-20">
-        {/* Hero Section */}
-        <section className="py-20 md:py-28 bg-gradient-to-b from-gray-50 to-white">
-          <div className="container-max text-center">
-            <h1 className="text-5xl md:text-7xl font-bold text-primary mb-6">
+        {/* Hero Section with Background Image */}
+        <section 
+          className="py-20 md:py-28 bg-cover bg-center bg-no-repeat relative"
+          style={{
+            backgroundImage: 'url(/images/home_background.png)',
+          }}
+        >
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          
+          {/* Content */}
+          <div className="container-max text-center relative z-10">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
               MUGII
             </h1>
             <p className="text-xl md:text-2xl text-secondary font-semibold mb-6">
               Modern Japanese Dining Experience
             </p>
-            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-3xl mx-auto leading-relaxed">
               Welcome to MUGII, where tradition meets innovation in every plate. 
               Since our founding, we have been dedicated to bringing the finest 
               Japanese culinary arts to your table.
