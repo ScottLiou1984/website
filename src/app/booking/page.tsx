@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
 
 export default function Booking() {
   return (
@@ -26,7 +27,7 @@ export default function Booking() {
               </div>
 
               {/* Call to Action */}
-              <div className="bg-white border-l-4 border-secondary p-8 rounded-lg shadow-sm">
+              <div className="bg-white border-l-4 border-secondary p-8 rounded-lg shadow-sm mb-8">
                 <h3 className="text-primary font-bold text-lg mb-3">📞 DIRECT BOOKING</h3>
                 <p className="text-gray-700 mb-4 text-sm">
                   For immediate reservations or special requests, please contact us directly.
@@ -37,6 +38,17 @@ export default function Booking() {
                     <p className="text-lg text-secondary font-bold">(555) 123-4567</p>
                   </div>
                 </div>
+              </div>
+
+              {/* Baby Ultrasound Image */}
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="/images/baby.jpg"
+                  alt="Ultrasound"
+                  width={400}
+                  height={500}
+                  className="w-full h-auto"
+                />
               </div>
             </div>
 
