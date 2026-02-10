@@ -63,8 +63,8 @@ export default function Home() {
               </p>
               
               <p>
-                At MUGII, we believe dining is more than just eating. It's about connection, 
-                community, and the joy of sharing a memorable meal with others. Whether you're 
+                At MUGII, we believe dining is more than just eating. It&apos;s about connection, 
+                community, and the joy of sharing a memorable meal with others. Whether you&apos;re 
                 a long-time enthusiast of Japanese cuisine or discovering it for the first time, 
                 we invite you to experience the MUGII difference.
               </p>

@@ -18,7 +18,7 @@ export default function Booking() {
             <div>
               <div className="mb-8">
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  Experience the art of Japanese ramen at MUGII. Whether you're celebrating a special occasion or simply enjoying a memorable meal, we're excited to welcome you.
+                  Experience the art of Japanese ramen at MUGII. Whether you&apos;re celebrating a special occasion or simply enjoying a memorable meal, we&apos;re excited to welcome you.
                 </p>
                 <p className="text-base text-gray-600 leading-relaxed">
                   Our dedicated team ensures every guest receives exceptional service in a warm and inviting atmosphere. Book your table today and discover why MUGII is the destination for authentic Japanese cuisine.
