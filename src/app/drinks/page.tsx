@@ -7,9 +7,9 @@ export default function Drinks() {
       id: 1,
       category: 'Japanese Beer',
       items: [
-        { name: 'Asahi', price: '$5.99' },
-        { name: 'Sapporo', price: '$5.99' },
-        { name: 'Kirin', price: '$5.99' },
+        { name: 'Asahi', description: 'Crisp and refreshing Japanese lager', price: '$5.99' },
+        { name: 'Sapporo', description: 'Smooth and balanced premium beer', price: '$5.99' },
+        { name: 'Kirin', description: 'Clean and light Japanese beer', price: '$5.99' },
       ],
     },
     {
@@ -35,9 +35,9 @@ export default function Drinks() {
       id: 4,
       category: 'Soft Drinks',
       items: [
-        { name: 'Japanese Lychee Soda', price: '$4.99' },
-        { name: 'Mango Juice', price: '$3.99' },
-        { name: 'Green Tea', price: '$2.99' },
+        { name: 'Japanese Lychee Soda', description: 'Sweet and floral flavored soda', price: '$4.99' },
+        { name: 'Mango Juice', description: 'Fresh tropical mango juice', price: '$3.99' },
+        { name: 'Green Tea', description: 'Classic refreshing Japanese green tea', price: '$2.99' },
       ],
     },
   ]
