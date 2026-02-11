@@ -6,23 +6,36 @@ export default function Booking() {
   return (
     <>
       <Navigation />
-      <main className="pt-24 pb-12" style={{ backgroundImage: 'url(/images/booking_backround.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-        <div className="absolute inset-0 bg-black opacity-40 pointer-events-none"></div>
-        <div className="container-max relative z-10">
-          <div className="mb-16">
+      <main className="pt-20 pb-12">
+        {/* Header Section with Background Image */}
+        <section 
+          className="py-16 md:py-24 bg-cover bg-center bg-no-repeat relative"
+          style={{
+            backgroundImage: 'url(/images/booking_backround.png)',
+          }}
+        >
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-black opacity-40"></div>
+          
+          {/* Content */}
+          <div className="container-max text-center relative z-10">
             <h1 className="section-title text-white">MAKE A RESERVATION</h1>
-            <div className="w-16 h-1 bg-secondary mx-auto mb-8"></div>
-            <p className="section-subtitle text-gray-100">Join us for an unforgettable dining experience</p>
+            <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
+            <p className="section-subtitle text-white font-semibold">Join us for an unforgettable dining experience</p>
           </div>
+        </section>
+
+        {/* Booking Content */}
+        <div className="container-max py-16">
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-12">
             {/* Left - Welcome Section */}
             <div>
               <div className="mb-8">
-                <p className="text-lg text-gray-100 leading-relaxed mb-6">
-                  Experience the art of Japanese ramen at MUGII. Whether you&apos;re celebrating a special occasion or simply enjoying a memorable meal, we&apos;re excited to welcome you.
+                <p className="text-lg text-primary leading-relaxed mb-6">
+                  Experience the art of Japanese ramen at MUGII. Whether you're celebrating a special occasion or simply enjoying a memorable meal, we're excited to welcome you.
                 </p>
-                <p className="text-base text-gray-200 leading-relaxed">
+                <p className="text-base text-gray-700 leading-relaxed">
                   Our dedicated team ensures every guest receives exceptional service in a warm and inviting atmosphere. Book your table today and discover why MUGII is the destination for authentic Japanese cuisine.
                 </p>
               </div>

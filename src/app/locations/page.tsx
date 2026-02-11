@@ -48,9 +48,9 @@ export default function Locations() {
                 {/* Main Card */}
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
                   {/* Header Banner */}
-                  <div className="bg-gradient-to-r from-primary to-gray-800 h-32 flex items-center justify-center relative overflow-hidden">
+                  <div className="bg-gradient-to-r from-primary to-gray-800 py-8 flex items-center justify-center relative overflow-hidden">
                     <div className="absolute inset-0 opacity-10 bg-pattern"></div>
-                    <h2 className="text-4xl font-bold text-white relative z-10 text-center px-6">
+                    <h2 className="text-3xl font-bold text-white relative z-10 text-center px-6">
                       {location.name}
                     </h2>
                   </div>

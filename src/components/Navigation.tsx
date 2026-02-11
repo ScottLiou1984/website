@@ -11,8 +11,8 @@ export default function Navigation() {
     { name: 'LOCATIONS', href: '/locations' },
     { name: 'MENU', href: '/menu' },
     { name: 'DRINKS', href: '/drinks' },
-    { name: 'GIFT CARDS', href: '/gift-cards' },
     { name: 'BOOKING', href: '/booking' },
+    { name: 'GIFT CARDS', href: '/gift-cards' },
   ]
 
   return (
