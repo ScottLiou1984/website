@@ -1,48 +1,33 @@
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import Image from 'next/image'
 
 export default function Booking() {
   return (
     <>
       <Navigation />
-      <main className="pt-20">
-        {/* Header Section with Background Image */}
-        <section 
-          className="py-16 md:py-24 bg-cover bg-center bg-no-repeat relative"
-          style={{
-            backgroundImage: 'url(/images/booking_backround.png)',
-          }}
-        >
-          {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black opacity-50"></div>
-          
-          {/* Content */}
-          <div className="container-max text-center relative z-10">
+      <main className="pt-24 pb-12" style={{ backgroundImage: 'url(/images/booking_backround.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="absolute inset-0 bg-black opacity-40 pointer-events-none"></div>
+        <div className="container-max relative z-10">
+          <div className="mb-16">
             <h1 className="section-title text-white">MAKE A RESERVATION</h1>
-            <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
+            <div className="w-16 h-1 bg-secondary mx-auto mb-8"></div>
             <p className="section-subtitle text-gray-100">Join us for an unforgettable dining experience</p>
           </div>
-        </section>
-
-        {/* Content Section */}
-        <div className="bg-white py-16">
-          <div className="container-max">
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-12">
             {/* Left - Welcome Section */}
             <div>
               <div className="mb-8">
-                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                <p className="text-lg text-gray-100 leading-relaxed mb-6">
                   Experience the art of Japanese ramen at MUGII. Whether you&apos;re celebrating a special occasion or simply enjoying a memorable meal, we&apos;re excited to welcome you.
                 </p>
-                <p className="text-base text-gray-600 leading-relaxed">
+                <p className="text-base text-gray-200 leading-relaxed">
                   Our dedicated team ensures every guest receives exceptional service in a warm and inviting atmosphere. Book your table today and discover why MUGII is the destination for authentic Japanese cuisine.
                 </p>
               </div>
 
               {/* Call to Action */}
-              <div className="bg-white border-l-4 border-secondary p-8 rounded-lg shadow-sm mb-8">
+              <div className="bg-white border-l-4 border-secondary p-8 rounded-lg shadow-sm">
                 <h3 className="text-primary font-bold text-lg mb-3">📞 DIRECT BOOKING</h3>
                 <p className="text-gray-700 mb-4 text-sm">
                   For immediate reservations or special requests, please contact us directly.
@@ -54,23 +39,12 @@ export default function Booking() {
                   </div>
                 </div>
               </div>
-
-              {/* Baby Ultrasound Image */}
-              <div className="rounded-lg overflow-hidden shadow-lg">
-                <Image
-                  src="/images/baby.jpg"
-                  alt="Ultrasound"
-                  width={400}
-                  height={500}
-                  className="w-full h-auto"
-                />
-              </div>
             </div>
 
             {/* Right - Info Cards */}
             <div className="space-y-6">
               {/* Card 1 - Hours */}
-              <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="bg-white bg-opacity-95 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="text-3xl">⏰</div>
                   <div className="flex-1">
@@ -87,7 +61,7 @@ export default function Booking() {
               </div>
 
               {/* Card 2 - Party Size */}
-              <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="bg-white bg-opacity-95 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="text-3xl">👥</div>
                   <div className="flex-1">
@@ -104,7 +78,7 @@ export default function Booking() {
               </div>
 
               {/* Card 3 - Cancellation */}
-              <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="bg-white bg-opacity-95 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="text-3xl">📋</div>
                   <div className="flex-1">
