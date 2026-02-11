@@ -20,13 +20,27 @@ export default function Locations() {
   return (
     <>
       <Navigation />
-      <main className="pt-32 pb-20 bg-gradient-to-br from-gray-50 via-white to-gray-50 min-h-screen">
-        <div className="container-max">
-          <div className="mb-16 text-center">
-            <h1 className="section-title">OUR LOCATION</h1>
-            <div className="w-16 h-1 bg-secondary mx-auto mb-8"></div>
-            <p className="section-subtitle">Where great food and hospitality meet</p>
+      <main className="pt-20 pb-20 min-h-screen">
+        {/* Header Section with Background Image */}
+        <section 
+          className="py-16 md:py-24 bg-cover bg-center bg-no-repeat relative"
+          style={{
+            backgroundImage: 'url(/images/location_backgroumd.png)',
+          }}
+        >
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          
+          {/* Content */}
+          <div className="container-max text-center relative z-10">
+            <h1 className="section-title text-white">OUR LOCATION</h1>
+            <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
+            <p className="section-subtitle text-gray-100">Where great food and hospitality meet</p>
           </div>
+        </section>
+
+        {/* Content Section */}
+        <div className="bg-white">
 
           <div className="flex justify-center">
             {locations.map((location) => (

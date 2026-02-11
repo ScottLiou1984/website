@@ -71,10 +71,27 @@ export default function Menu() {
   return (
     <>
       <Navigation />
-      <main className="pt-24 pb-12">
-        <div className="container-max">
-          <h1 className="section-title">OUR MENU</h1>
-          <p className="section-subtitle">Crafted with the finest ingredients</p>
+      <main className="pt-20">
+        {/* Header Section with Background Image */}
+        <section 
+          className="py-16 md:py-24 bg-cover bg-center bg-no-repeat relative"
+          style={{
+            backgroundImage: 'url(/images/menu_background.png)',
+          }}
+        >
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          
+          {/* Content */}
+          <div className="container-max text-center relative z-10">
+            <h1 className="section-title text-white">OUR MENU</h1>
+            <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
+            <p className="section-subtitle text-gray-100">Crafted with the finest ingredients</p>
+          </div>
+        </section>
+
+        {/* Menu Content */}
+        <div className="container-max py-16">
 
           {/* Ramen Section */}
           <div className="mb-16">

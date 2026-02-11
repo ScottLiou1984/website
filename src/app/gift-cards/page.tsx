@@ -6,9 +6,28 @@ export default function GiftCards() {
   return (
     <>
       <Navigation />
-      <main className="pt-24 pb-12">
-        <div className="container-max">
-          <h1 className="section-title">GIFT CARDS</h1>
+      <main className="pt-20">
+        {/* Header Section with Background Image */}
+        <section 
+          className="py-16 md:py-24 bg-cover bg-center bg-no-repeat relative"
+          style={{
+            backgroundImage: 'url(/images/gift_background.png)',
+          }}
+        >
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          
+          {/* Content */}
+          <div className="container-max text-center relative z-10">
+            <h1 className="section-title text-white">GIFT CARDS</h1>
+            <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
+            <p className="section-subtitle text-gray-100">The perfect present for Japanese cuisine lovers</p>
+          </div>
+        </section>
+
+        {/* Content Section */}
+        <div className="bg-white py-16">
+          <div className="container-max">
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12 items-center">
             {/* Left Column */}
