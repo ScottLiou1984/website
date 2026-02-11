@@ -60,7 +60,7 @@ export default function Drinks() {
           <div className="container-max text-center relative z-10">
             <h1 className="section-title text-white">BEVERAGE MENU</h1>
             <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
-            <p className="section-subtitle text-gray-100">Perfect pairings for your meal</p>
+            <p className="section-subtitle text-white font-semibold">Perfect pairings for your meal</p>
           </div>
         </section>
 

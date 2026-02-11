@@ -24,7 +24,7 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-secondary font-semibold mb-6">
               Modern Japanese Dining Experience
             </p>
-            <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-white font-semibold mb-8 max-w-3xl mx-auto leading-relaxed">
               Welcome to MUGII, where tradition meets innovation in every plate. 
               Since our founding, we have been dedicated to bringing the finest 
               Japanese culinary arts to your table.

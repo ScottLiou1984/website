@@ -35,7 +35,7 @@ export default function Locations() {
           <div className="container-max text-center relative z-10">
             <h1 className="section-title text-white">OUR LOCATION</h1>
             <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
-            <p className="section-subtitle text-gray-100">Where great food and hospitality meet</p>
+            <p className="section-subtitle text-white font-semibold">Where great food and hospitality meet</p>
           </div>
         </section>
 

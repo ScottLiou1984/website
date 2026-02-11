@@ -86,7 +86,7 @@ export default function Menu() {
           <div className="container-max text-center relative z-10">
             <h1 className="section-title text-white">OUR MENU</h1>
             <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
-            <p className="section-subtitle text-gray-100">Crafted with the finest ingredients</p>
+            <p className="section-subtitle text-white font-semibold">Crafted with the finest ingredients</p>
           </div>
         </section>
 
