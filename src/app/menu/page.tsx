@@ -92,41 +92,13 @@ export default function Menu() {
 
         {/* Menu Content */}
         <div className="container-max py-16">
-
-          {/* Ramen Section */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-primary mb-8 pb-4 border-b-2 border-secondary">
-              RAMEN
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {ramenItems.map((item) => (
-                <div key={item.id} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-bold text-primary">{item.name}</h3>
-                    <span className="text-secondary font-bold text-lg">{item.price}</span>
-                  </div>
-                  <p className="text-gray-600 text-sm">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Sides Section */}
-          <div className="mb-12">
-            <h2 className="text-3xl font-bold text-primary mb-8 pb-4 border-b-2 border-secondary">
-              SIDES & APPETIZERS
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {sideItems.map((item) => (
-                <div key={item.id} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-bold text-primary">{item.name}</h3>
-                    <span className="text-secondary font-bold text-lg">{item.price}</span>
-                  </div>
-                  <p className="text-gray-600 text-sm">{item.description}</p>
-                </div>
-              ))}
-            </div>
+          {/* Menu Image */}
+          <div className="flex justify-center mb-12">
+            <img 
+              src="/images/menu.jpg" 
+              alt="AFURI Restaurant Menu"
+              className="max-w-4xl w-full h-auto rounded-lg shadow-lg"
+            />
           </div>
 
           {/* CTA */}

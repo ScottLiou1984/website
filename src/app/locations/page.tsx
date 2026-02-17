@@ -8,11 +8,11 @@ export default function Locations() {
     {
       id: 1,
       name: 'Downtown Branch',
-      address: '123 Main Street, City, ST 12345',
+      address: 'G10/27 Lonsdale St, Braddon ACT 2612',
       phone: '(555) 123-4567',
       hours: 'Mon-Thu: 11AM-10PM, Fri-Sat: 11AM-11PM, Sun: 11AM-9PM',
-      description: 'Our flagship location in the heart of downtown.',
-      neighborhood: 'Financial District',
+      description: 'Our flagship location in the heart of Braddon.',
+      neighborhood: 'Braddon',
       parking: 'Street parking & public lots nearby',
     },
   ]

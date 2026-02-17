@@ -25,9 +25,7 @@ export default function Home() {
               Modern Japanese Dining Experience
             </p>
             <p className="text-lg md:text-xl text-white font-semibold mb-8 max-w-3xl mx-auto leading-relaxed">
-              Welcome to MUGII, where tradition meets innovation in every plate. 
-              Since our founding, we have been dedicated to bringing the finest 
-              Japanese culinary arts to your table.
+              MUGII is a modern Japanese restaurant in Canberra, serving refined ramen, rice dishes, and thoughtfully crafted small plates. Inspired by classic Japanese flavours, our cuisine focuses on balance, texture, and layered depth — presented in a relaxed, spacious contemporary setting.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <a href="/menu" className="btn-primary">
@@ -40,80 +38,103 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Our Story */}
-        <section className="py-16 md:py-24 bg-white">
-          <div className="container-max max-w-3xl">
-            <h2 className="section-title">OUR STORY</h2>
-            
-            <div className="space-y-6 text-gray-700 leading-relaxed">
-              <p>
-                MUGII was born from a passion for authentic Japanese culinary traditions combined 
-                with modern innovation. Our founders believed that exceptional Japanese cuisine 
-                should be accessible to everyone, crafted with integrity and creative vision.
-              </p>
-              
-              <p>
-                What started as a small vision has blossomed into a culinary destination. 
-                Each dish at MUGII tells a story of meticulous ingredient selection, traditional 
-                preparation techniques, and an unwavering commitment to excellence.
-              </p>
-              
-              <p>
-                From our hand-pulled ramen crafted with broths simmered for hours, to our 
-                sushi prepared with the finest sustainably-sourced fish, every element reflects 
-                our dedication to quality. We source ingredients directly from trusted suppliers 
-                who share our commitment to freshness and sustainability.
-              </p>
-              
-              <p>
-                Our team comprises skilled artisans who have studied traditional Japanese cooking 
-                methods while embracing contemporary culinary techniques. This fusion creates 
-                a unique dining experience that honors tradition while celebrating innovation.
-              </p>
-              
-              <p>
-                At MUGII, we believe dining is more than just eating. It&apos;s about connection, 
-                community, and the joy of sharing a memorable meal with others. Whether you&apos;re 
-                a long-time enthusiast of Japanese cuisine or discovering it for the first time, 
-                we invite you to experience the MUGII difference.
-              </p>
-              
-              <p>
-                Our mission is simple: to provide an exceptional dining experience that leaves 
-                you feeling nourished, inspired, and eager to return. Join us on this culinary journey.
-              </p>
-            </div>
-          </div>
-        </section>
-
         {/* Values Section */}
-        <section className="py-16 md:py-24 bg-gray-50">
+        <section className="py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white">
           <div className="container-max">
-            <h2 className="section-title">OUR VALUES</h2>
+            <div className="text-center mb-16">
+              <h2 className="section-title">OUR VALUES</h2>
+              <div className="w-20 h-1 bg-gradient-to-r from-secondary to-accent mx-auto mt-6"></div>
+            </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                <h3 className="text-2xl font-bold text-primary mb-4">Quality</h3>
-                <p className="text-gray-600">
-                  We source only the finest ingredients and employ traditional techniques 
-                  to ensure every dish meets our exacting standards.
-                </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              {/* Creativity Card */}
+              <div className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-secondary">
+                {/* Top Accent Bar */}
+                <div className="h-1 bg-gradient-to-r from-secondary to-accent"></div>
+                
+                {/* Number Badge */}
+                <div className="pt-8 px-8">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-white mb-6">
+                    <img src="/images/Creativity.png" alt="Creativity" className="w-12 h-12 object-contain" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-primary mb-2">Creativity</h3>
+                  <div className="w-8 h-0.5 bg-secondary mb-6"></div>
+                </div>
+                
+                {/* Content */}
+                <div className="px-8 pb-8">
+                  <div className="space-y-4 text-gray-700 leading-relaxed text-sm">
+                    <p>
+                      At MUGII, creativity begins with respect for tradition. Our ramen, rice dishes, 
+                      and small plates are inspired by classic Japanese flavours, yet reimagined with 
+                      modern technique and unexpected detail.
+                    </p>
+                    <p>
+                      We explore balance, texture, and layered depth — from house-made broths to refined 
+                      garnishes — creating dishes that feel familiar, yet distinctly new.
+                    </p>
+                  </div>
+                </div>
               </div>
-              
-              <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                <h3 className="text-2xl font-bold text-primary mb-4">Sustainability</h3>
-                <p className="text-gray-600">
-                  We are committed to sustainable practices, from ethically sourced fish 
-                  to environmentally conscious operations.
-                </p>
+
+              {/* Sustainable Value Card */}
+              <div className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-secondary">
+                {/* Top Accent Bar */}
+                <div className="h-1 bg-gradient-to-r from-secondary to-accent"></div>
+                
+                {/* Number Badge */}
+                <div className="pt-8 px-8">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-white mb-6">
+                    <img src="/images/Sustainable Value.png" alt="Sustainable Value" className="w-12 h-12 object-contain" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-primary mb-2">Sustainable Value</h3>
+                  <div className="w-8 h-0.5 bg-secondary mb-6"></div>
+                </div>
+                
+                {/* Content */}
+                <div className="px-8 pb-8">
+                  <div className="space-y-4 text-gray-700 leading-relaxed text-sm">
+                    <p>
+                      We believe exceptional dining should remain accessible.
+                    </p>
+                    <p>
+                      MUGII is committed to sustainable pricing — delivering refined Japanese cuisine 
+                      without unnecessary extravagance. Quality ingredients, thoughtful execution, and 
+                      fair pricing allow our guests to return not just once, but often.
+                    </p>
+                    <p>
+                      Great food should be repeatable, not reserved for rare occasions.
+                    </p>
+                  </div>
+                </div>
               </div>
-              
-              <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                <h3 className="text-2xl font-bold text-primary mb-4">Community</h3>
-                <p className="text-gray-600">
-                  We believe in giving back to our communities through partnerships, 
-                  support, and creating meaningful local connections.
-                </p>
+
+              {/* Flavour First Card */}
+              <div className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-secondary">
+                {/* Top Accent Bar */}
+                <div className="h-1 bg-gradient-to-r from-secondary to-accent"></div>
+                
+                {/* Number Badge */}
+                <div className="pt-8 px-8">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-white mb-6">
+                    <img src="/images/Flavour First.png" alt="Flavour First" className="w-12 h-12 object-contain" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-primary mb-2">Flavour First</h3>
+                  <div className="w-8 h-0.5 bg-secondary mb-6"></div>
+                </div>
+                
+                {/* Content */}
+                <div className="px-8 pb-8">
+                  <div className="space-y-4 text-gray-700 leading-relaxed text-sm">
+                    <p>
+                      Above all, we are driven by taste.
+                    </p>
+                    <p>
+                      Every broth is simmered with intention. Every sauce is balanced with precision. 
+                      Every plate is designed to leave a lasting impression.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
