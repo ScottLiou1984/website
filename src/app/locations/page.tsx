@@ -66,7 +66,6 @@ export default function Locations() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                       {/* Address Card */}
                       <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl border border-gray-200 hover:border-secondary transition-colors">
-                        <div className="text-3xl mb-3">📍</div>
                         <h3 className="text-primary font-bold text-lg mb-3">ADDRESS</h3>
                         <p className="text-gray-700 text-sm leading-relaxed mb-4">
                           {location.address}
@@ -78,7 +77,6 @@ export default function Locations() {
 
                       {/* Phone Card */}
                       <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl border border-gray-200 hover:border-secondary transition-colors">
-                        <div className="text-3xl mb-3">📞</div>
                         <h3 className="text-primary font-bold text-lg mb-3">PHONE</h3>
                         <p className="text-gray-700 text-lg font-semibold tracking-wide">
                           {location.phone}
@@ -90,7 +88,6 @@ export default function Locations() {
 
                       {/* Hours Card */}
                       <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl border border-gray-200 hover:border-secondary transition-colors">
-                        <div className="text-3xl mb-3">🕐</div>
                         <h3 className="text-primary font-bold text-lg mb-3">HOURS</h3>
                         <div className="text-gray-700 text-sm space-y-1">
                           {location.hours.split(',').map((hour, idx) => (
@@ -101,7 +98,6 @@ export default function Locations() {
 
                       {/* Parking Card */}
                       <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl border border-gray-200 hover:border-secondary transition-colors">
-                        <div className="text-3xl mb-3">🅿️</div>
                         <h3 className="text-primary font-bold text-lg mb-3">PARKING</h3>
                         <p className="text-gray-700 text-sm leading-relaxed">
                           {location.parking}
@@ -122,7 +118,7 @@ export default function Locations() {
                           rel="noopener noreferrer"
                           className="bg-gradient-to-r from-secondary to-yellow-500 text-primary py-4 px-12 rounded-lg font-bold text-lg hover:shadow-lg transition-all hover:scale-105"
                         >
-                          📍 GET DIRECTIONS
+                          GET DIRECTIONS
                         </a>
                       </div>
                     </div>

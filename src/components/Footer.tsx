@@ -33,7 +33,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">CONTACT</h4>
             <p className="text-gray-300 mb-2">Phone: (555) 123-4567</p>
-            <p className="text-gray-300">Email: info@mugii.com</p>
+            <p className="text-gray-300">Email: mugii2026@hotmail.com</p>
           </div>
         </div>
 

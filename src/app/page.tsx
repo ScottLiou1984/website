@@ -52,11 +52,8 @@ export default function Home() {
                 {/* Top Accent Bar */}
                 <div className="h-1 bg-gradient-to-r from-secondary to-accent"></div>
                 
-                {/* Number Badge */}
+                {/* Title */}
                 <div className="pt-8 px-8">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-white mb-6">
-                    <img src="/images/Creativity.png" alt="Creativity" className="w-12 h-12 object-contain" />
-                  </div>
                   <h3 className="text-2xl font-bold text-primary mb-2">Creativity</h3>
                   <div className="w-8 h-0.5 bg-secondary mb-6"></div>
                 </div>
@@ -82,11 +79,8 @@ export default function Home() {
                 {/* Top Accent Bar */}
                 <div className="h-1 bg-gradient-to-r from-secondary to-accent"></div>
                 
-                {/* Number Badge */}
+                {/* Title */}
                 <div className="pt-8 px-8">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-white mb-6">
-                    <img src="/images/Sustainable Value.png" alt="Sustainable Value" className="w-12 h-12 object-contain" />
-                  </div>
                   <h3 className="text-2xl font-bold text-primary mb-2">Sustainable Value</h3>
                   <div className="w-8 h-0.5 bg-secondary mb-6"></div>
                 </div>
@@ -114,11 +108,8 @@ export default function Home() {
                 {/* Top Accent Bar */}
                 <div className="h-1 bg-gradient-to-r from-secondary to-accent"></div>
                 
-                {/* Number Badge */}
+                {/* Title */}
                 <div className="pt-8 px-8">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-lg bg-white mb-6">
-                    <img src="/images/Flavour First.png" alt="Flavour First" className="w-12 h-12 object-contain" />
-                  </div>
                   <h3 className="text-2xl font-bold text-primary mb-2">Flavour First</h3>
                   <div className="w-8 h-0.5 bg-secondary mb-6"></div>
                 </div>
@@ -130,8 +121,83 @@ export default function Home() {
                       Above all, we are driven by taste.
                     </p>
                     <p>
-                      Every broth is simmered with intention. Every sauce is balanced with precision. 
+                      Every broth is simmered with intention.
+                      Every sauce is balanced with precision.
                       Every plate is designed to leave a lasting impression.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Booking & Contact Section */}
+        <section className="py-16 md:py-24 bg-gradient-to-b from-white to-gray-50">
+          <div className="container-max">
+            <div className="text-center mb-16">
+              <h2 className="section-title">JOIN US TODAY</h2>
+              <div className="w-20 h-1 bg-gradient-to-r from-secondary to-accent mx-auto mt-6"></div>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              {/* Booking Card */}
+              <div className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-secondary">
+                <div className="h-1 bg-gradient-to-r from-secondary to-accent"></div>
+                
+                <div className="pt-8 px-8">
+                  <h3 className="text-2xl font-bold text-primary mb-2">BOOKING</h3>
+                  <div className="w-8 h-0.5 bg-secondary mb-6"></div>
+                </div>
+                
+                <div className="px-8 pb-8">
+                  <div className="space-y-4 text-gray-700 leading-relaxed text-sm">
+                    <p>
+                      MUGII currently operates on a walk-in only basis.
+                    </p>
+                    <p>
+                      We invite you to drop by and experience our kitchen at your own pace.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Contact Card */}
+              <div className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-secondary">
+                <div className="h-1 bg-gradient-to-r from-secondary to-accent"></div>
+                
+                <div className="pt-8 px-8">
+                  <h3 className="text-2xl font-bold text-primary mb-2">CONTACT US</h3>
+                  <div className="w-8 h-0.5 bg-secondary mb-6"></div>
+                </div>
+                
+                <div className="px-8 pb-8">
+                  <div className="text-center">
+                    <a href="mailto:mugii2026@hotmail.com" className="text-primary font-bold hover:text-secondary transition-colors break-all">
+                      mugii2026@hotmail.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Hours Card */}
+              <div className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-secondary">
+                <div className="h-1 bg-gradient-to-r from-secondary to-accent"></div>
+                
+                <div className="pt-8 px-8">
+                  <h3 className="text-2xl font-bold text-primary mb-2">HOURS</h3>
+                  <div className="w-8 h-0.5 bg-secondary mb-6"></div>
+                </div>
+                
+                <div className="px-8 pb-8">
+                  <div className="space-y-4 text-gray-700 leading-relaxed text-sm">
+                    <p>
+                      Monday - Sunday
+                      <br />
+                      11:00 AM - 9:00 PM
+                    </p>
+                    <p className="text-gray-500 text-xs">
+                      Walk-ins welcome anytime
                     </p>
                   </div>
                 </div>

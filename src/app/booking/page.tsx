@@ -1,6 +1,5 @@
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import Image from 'next/image'
 
 export default function Booking() {
   return (
@@ -26,105 +25,88 @@ export default function Booking() {
         </section>
 
         {/* Booking Content */}
-        <div className="container-max py-16">
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-12">
-            {/* Left - Welcome Section */}
-            <div>
-              <div className="mb-8">
-                <p className="text-lg text-primary leading-relaxed mb-6">
-                  Experience the art of Japanese ramen at MUGII. Whether you&apos;re celebrating a special occasion or simply enjoying a memorable meal, we&apos;re excited to welcome you.
-                </p>
-                <p className="text-base text-gray-700 leading-relaxed">
-                  Our dedicated team ensures every guest receives exceptional service in a warm and inviting atmosphere. Book your table today and discover why MUGII is the destination for authentic Japanese cuisine.
-                </p>
-              </div>
-
-              {/* Call to Action */}
-              <div className="bg-white border-l-4 border-secondary p-8 rounded-lg shadow-sm mb-8">
-                <h3 className="text-primary font-bold text-lg mb-3">📞 DIRECT BOOKING</h3>
-                <p className="text-gray-700 mb-4 text-sm">
-                  For immediate reservations or special requests, please contact us directly.
-                </p>
-                <div className="space-y-3">
-                  <div>
-                    <p className="text-primary font-bold text-sm mb-1">Downtown Branch</p>
-                    <p className="text-lg text-secondary font-bold">(555) 123-4567</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Baby Ultrasound Image */}
-              <div className="rounded-lg overflow-hidden shadow-lg">
-                <Image
-                  src="/images/baby.jpg"
-                  alt="Ultrasound"
-                  width={400}
-                  height={500}
-                  className="w-full h-auto"
-                />
-              </div>
+        <div className="bg-gray-50 py-16">
+          <div className="container-max max-w-4xl">
+            {/* Intro Section */}
+            <div className="text-center mb-16">
+              <p className="text-lg text-primary leading-relaxed mb-6 max-w-2xl mx-auto">
+                Experience the art of Japanese ramen at MUGII. Whether you&apos;re celebrating a special occasion or simply enjoying a memorable meal, we&apos;re excited to welcome you.
+              </p>
             </div>
 
-            {/* Right - Info Cards */}
-            <div className="space-y-6">
+            {/* Info Cards Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 max-w-2xl mx-auto">
               {/* Card 1 - Hours */}
-              <div className="bg-white bg-opacity-95 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="text-3xl">⏰</div>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
+                <div className="flex items-start gap-4 flex-1">
+                  <div className="text-4xl flex-shrink-0">⏰</div>
                   <div className="flex-1">
-                    <h3 className="text-primary font-bold text-lg mb-2">BOOKING HOURS</h3>
-                    <p className="text-gray-700 text-sm">
-                      Monday - Sunday<br/>
-                      11:00 AM - 9:00 PM
+                    <h3 className="text-primary font-bold text-lg mb-3">BOOKING HOURS</h3>
+                    <p className="text-gray-700 text-sm leading-relaxed mb-3">
+                      Monday - Sunday: 11:00 AM - 9:00 PM
+                    </p>
+                    <p className="text-gray-500 text-xs">
+                      Book 2-3 days in advance for optimal availability
                     </p>
                   </div>
                 </div>
-                <p className="text-gray-600 text-xs border-t pt-3">
-                  We recommend booking at least 2-3 days in advance for optimal availability.
-                </p>
               </div>
 
               {/* Card 2 - Party Size */}
-              <div className="bg-white bg-opacity-95 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="text-3xl">👥</div>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
+                <div className="flex items-start gap-4 flex-1">
+                  <div className="text-4xl flex-shrink-0">👥</div>
                   <div className="flex-1">
-                    <h3 className="text-primary font-bold text-lg mb-2">PARTY SIZE</h3>
-                    <p className="text-gray-700 text-sm">
-                      Accommodates 1-10 guests<br/>
-                      Per reservation
+                    <h3 className="text-primary font-bold text-lg mb-3">PARTY SIZE</h3>
+                    <p className="text-gray-700 text-sm leading-relaxed mb-3">
+                      Accommodates 1-10 guests per reservation
+                    </p>
+                    <p className="text-gray-500 text-xs">
+                      For larger groups, contact us for arrangements
                     </p>
                   </div>
                 </div>
-                <p className="text-gray-600 text-xs border-t pt-3">
-                  For larger groups (11+ guests), please contact us for special arrangements.
-                </p>
               </div>
 
               {/* Card 3 - Cancellation */}
-              <div className="bg-white bg-opacity-95 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="text-3xl">📋</div>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
+                <div className="flex items-start gap-4 flex-1">
+                  <div className="text-4xl flex-shrink-0">📋</div>
                   <div className="flex-1">
-                    <h3 className="text-primary font-bold text-lg mb-2">CANCELLATION POLICY</h3>
-                    <p className="text-gray-700 text-sm">
-                      24 hours notice required<br/>
-                      For best results
+                    <h3 className="text-primary font-bold text-lg mb-3">CANCELLATION</h3>
+                    <p className="text-gray-700 text-sm leading-relaxed mb-3">
+                      24 hours notice required for changes
+                    </p>
+                    <p className="text-gray-500 text-xs">
+                      Less than 24 hours may affect availability
                     </p>
                   </div>
                 </div>
-                <p className="text-gray-600 text-xs border-t pt-3">
-                  Cancellations made less than 24 hours may affect our availability for other guests.
-                </p>
               </div>
 
-              {/* Walk-ins Banner */}
-              <div className="bg-gradient-to-r from-secondary to-yellow-600 text-primary p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg mb-2">✨ WALK-INS WELCOME</h3>
-                <p className="text-sm">
-                  No reservation? No problem. Walk-ins are always welcome based on availability. Come as you are!
-                </p>
+              {/* Card 4 - Walk-ins */}
+              <div className="bg-gradient-to-r from-secondary to-yellow-600 text-primary p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
+                <div className="flex items-start gap-4 flex-1">
+                  <div className="text-4xl flex-shrink-0">✨</div>
+                  <div className="flex-1">
+                    <h3 className="font-bold text-lg mb-3">WALK-INS WELCOME</h3>
+                    <p className="text-sm leading-relaxed">
+                      No reservation needed! Walk-ins are always welcome based on availability.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Direct Contact Section */}
+            <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-secondary max-w-2xl mx-auto w-full">
+              <h3 className="text-primary font-bold text-xl mb-4">📞 DIRECT BOOKING</h3>
+              <p className="text-gray-700 mb-6">
+                For immediate reservations or special requests, please contact us directly:
+              </p>
+              <div className="text-center">
+                <p className="text-gray-600 mb-2">Downtown Branch</p>
+                <p className="text-3xl font-bold text-secondary">(555) 123-4567</p>
               </div>
             </div>
           </div>
