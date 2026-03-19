@@ -24,16 +24,20 @@ export default function GiftCards() {
                 <div className="flex items-start gap-4">
                   <div className="text-secondary text-2xl font-bold">✓</div>
                   <div>
-                    <h3 className="font-bold text-white">Any Amount</h3>
-                    <p className="text-gray-200">Choose from $25 to $500</p>
+                    <h3 className="font-bold text-white">Choose Your Amount</h3>
+                    <div className="flex gap-3 mt-2">
+                      <span className="bg-secondary text-primary font-bold px-4 py-2 rounded-lg text-sm">$50</span>
+                      <span className="bg-secondary text-primary font-bold px-4 py-2 rounded-lg text-sm">$100</span>
+                      <span className="bg-secondary text-primary font-bold px-4 py-2 rounded-lg text-sm">$150</span>
+                    </div>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4">
                   <div className="text-secondary text-2xl font-bold">✓</div>
                   <div>
-                    <h3 className="font-bold text-white">No Expiration</h3>
-                    <p className="text-gray-200">Valid indefinitely at any location</p>
+                    <h3 className="font-bold text-white">1 Year Validity</h3>
+                    <p className="text-gray-200">Valid for 12 months from date of purchase</p>
                   </div>
                 </div>
                 
@@ -69,6 +73,14 @@ export default function GiftCards() {
           {/* CTA */}
           <div className="bg-secondary text-primary p-8 rounded-lg text-center">
             <h2 className="text-2xl font-bold mb-4">Ready to Give the Gift of MUGII?</h2>
+            <p className="text-primary mb-2 text-sm">Contact us or visit our location to purchase</p>
+            <p className="text-2xl font-bold mb-6">0406048412</p>
+            <a
+              href="/locations"
+              className="inline-block bg-primary text-white font-bold py-3 px-10 rounded-lg hover:bg-gray-800 transition-colors"
+            >
+              FIND US
+            </a>
           </div>
         </div>
       </main>

@@ -39,7 +39,7 @@ export default function Home() {
         </section>
 
         {/* Values Section */}
-        <section className="py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white">
+        <section className="py-16 md:py-24 bg-gradient-to-b from-amber-50 to-orange-50">
           <div className="container-max">
             <div className="text-center mb-16">
               <h2 className="section-title">OUR VALUES</h2>
@@ -133,7 +133,7 @@ export default function Home() {
         </section>
 
         {/* Booking & Contact Section */}
-        <section className="py-16 md:py-24 bg-gradient-to-b from-white to-gray-50">
+        <section className="py-16 md:py-24 bg-gradient-to-b from-orange-50 to-amber-50">
           <div className="container-max">
             <div className="text-center mb-16">
               <h2 className="section-title">JOIN US TODAY</h2>

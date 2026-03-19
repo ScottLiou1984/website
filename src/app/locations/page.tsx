@@ -9,7 +9,7 @@ export default function Locations() {
       id: 1,
       name: 'Downtown Branch',
       address: 'G10/27 Lonsdale St, Braddon ACT 2612',
-      phone: '(555) 123-4567',
+      phone: '0406048412',
       hours: 'Mon-Thu: 11AM-10PM, Fri-Sat: 11AM-11PM, Sun: 11AM-9PM',
       description: 'Our flagship location in the heart of Braddon.',
       neighborhood: 'Braddon',
@@ -88,7 +88,7 @@ export default function Locations() {
 
                       {/* Hours Card */}
                       <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl border border-gray-200 hover:border-secondary transition-colors">
-                        <h3 className="text-primary font-bold text-lg mb-3">HOURS</h3>
+                        <h3 className="text-primary font-bold text-lg mb-3">OPENING HOURS</h3>
                         <div className="text-gray-700 text-sm space-y-1">
                           {location.hours.split(',').map((hour, idx) => (
                             <p key={idx} className="leading-relaxed">{hour.trim()}</p>
@@ -102,24 +102,6 @@ export default function Locations() {
                         <p className="text-gray-700 text-sm leading-relaxed">
                           {location.parking}
                         </p>
-                      </div>
-                    </div>
-
-                    {/* CTA Section */}
-                    <div className="border-t pt-12 mt-12">
-                      <div className="text-center mb-8">
-                        <h3 className="text-primary font-bold text-2xl mb-3">Ready to Visit?</h3>
-                        <p className="text-gray-600 text-sm">Get directions to our location</p>
-                      </div>
-                      <div className="flex justify-center">
-                        <a
-                          href={`https://maps.google.com/?q=${encodeURIComponent(location.address)}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="bg-gradient-to-r from-secondary to-yellow-500 text-primary py-4 px-12 rounded-lg font-bold text-lg hover:shadow-lg transition-all hover:scale-105"
-                        >
-                          GET DIRECTIONS
-                        </a>
                       </div>
                     </div>
                   </div>

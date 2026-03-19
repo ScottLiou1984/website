@@ -36,55 +36,23 @@ export default function Booking() {
 
             {/* Info Cards Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 max-w-2xl mx-auto">
-              {/* Card 1 - Hours */}
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
-                <div className="flex items-start gap-4 flex-1">
-                  <div className="text-4xl flex-shrink-0">⏰</div>
-                  <div className="flex-1">
-                    <h3 className="text-primary font-bold text-lg mb-3">BOOKING HOURS</h3>
-                    <p className="text-gray-700 text-sm leading-relaxed mb-3">
-                      Monday - Sunday: 11:00 AM - 9:00 PM
-                    </p>
-                    <p className="text-gray-500 text-xs">
-                      Book 2-3 days in advance for optimal availability
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Card 2 - Party Size */}
+              {/* Card - Party Size */}
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="flex items-start gap-4 flex-1">
                   <div className="text-4xl flex-shrink-0">👥</div>
                   <div className="flex-1">
                     <h3 className="text-primary font-bold text-lg mb-3">PARTY SIZE</h3>
                     <p className="text-gray-700 text-sm leading-relaxed mb-3">
-                      Accommodates 1-10 guests per reservation
+                      Reservations are available for groups of 4 or more
                     </p>
                     <p className="text-gray-500 text-xs">
-                      For larger groups, contact us for arrangements
+                      For smaller groups, walk-ins are always welcome
                     </p>
                   </div>
                 </div>
               </div>
 
-              {/* Card 3 - Cancellation */}
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
-                <div className="flex items-start gap-4 flex-1">
-                  <div className="text-4xl flex-shrink-0">📋</div>
-                  <div className="flex-1">
-                    <h3 className="text-primary font-bold text-lg mb-3">CANCELLATION</h3>
-                    <p className="text-gray-700 text-sm leading-relaxed mb-3">
-                      24 hours notice required for changes
-                    </p>
-                    <p className="text-gray-500 text-xs">
-                      Less than 24 hours may affect availability
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Card 4 - Walk-ins */}
+              {/* Card - Walk-ins */}
               <div className="bg-gradient-to-r from-secondary to-yellow-600 text-primary p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="flex items-start gap-4 flex-1">
                   <div className="text-4xl flex-shrink-0">✨</div>
@@ -106,7 +74,7 @@ export default function Booking() {
               </p>
               <div className="text-center">
                 <p className="text-gray-600 mb-2">Downtown Branch</p>
-                <p className="text-3xl font-bold text-secondary">(555) 123-4567</p>
+                <p className="text-3xl font-bold text-secondary">0406048412</p>
               </div>
             </div>
           </div>
