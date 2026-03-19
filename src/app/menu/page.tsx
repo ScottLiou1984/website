@@ -50,7 +50,7 @@ export default function Menu() {
           }}
         >
           {/* Semi-transparent overlay */}
-          <div className="absolute inset-0 bg-white opacity-75"></div>
+          <div className="absolute inset-0 bg-amber-50 opacity-80"></div>
           <div className="container-max relative z-10">
             <div className="flex justify-center">
               <div className="w-full max-w-3xl">

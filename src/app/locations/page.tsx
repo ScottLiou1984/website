@@ -40,7 +40,7 @@ export default function Locations() {
         </section>
 
         {/* Content Section */}
-        <div className="bg-white">
+        <div className="bg-gradient-to-b from-amber-50 to-orange-50">
 
           <div className="flex justify-center">
             {locations.map((location) => (

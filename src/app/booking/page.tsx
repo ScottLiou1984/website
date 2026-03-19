@@ -25,7 +25,7 @@ export default function Booking() {
         </section>
 
         {/* Booking Content */}
-        <div className="bg-gray-50 py-16">
+        <div className="bg-gradient-to-b from-amber-50 to-orange-50 py-16">
           <div className="container-max max-w-4xl">
             {/* Intro Section */}
             <div className="text-center mb-16">

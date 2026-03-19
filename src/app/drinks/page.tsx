@@ -65,6 +65,7 @@ export default function Drinks() {
         </section>
 
         {/* Menu Content */}
+        <div className="bg-gradient-to-b from-amber-50 to-orange-50">
         <div className="container-max py-16">
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
@@ -91,7 +92,7 @@ export default function Drinks() {
           </div>
 
           {/* Drink Pairings Info */}
-          <div className="bg-gray-50 p-8 rounded-lg mb-8">
+          <div className="bg-white p-8 rounded-lg mb-8">
             <h2 className="text-2xl font-bold text-primary mb-4">SAKE & BEER PAIRINGS</h2>
             <p className="text-gray-700 mb-4">
               Our expertly curated selection of Japanese beverages complements our menu perfectly. 
@@ -125,6 +126,7 @@ export default function Drinks() {
               FIND A LOCATION
             </a>
           </div>
+        </div>
         </div>
       </main>
       <Footer />
