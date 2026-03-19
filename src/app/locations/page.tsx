@@ -9,7 +9,7 @@ export default function Locations() {
       id: 1,
       name: 'Downtown Branch',
       address: 'G10/27 Lonsdale St, Braddon ACT 2612',
-      phone: '0406048412',
+      phone: '0406 048 412',
       hours: 'Mon-Thu: 11AM-10PM, Fri-Sat: 11AM-11PM, Sun: 11AM-9PM',
       description: 'Our flagship location in the heart of Braddon.',
       neighborhood: 'Braddon',

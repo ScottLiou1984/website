@@ -74,7 +74,7 @@ export default function GiftCards() {
           <div className="bg-secondary text-primary p-8 rounded-lg text-center">
             <h2 className="text-2xl font-bold mb-4">Ready to Give the Gift of MUGII?</h2>
             <p className="text-primary mb-2 text-sm">Contact us or visit our location to purchase</p>
-            <p className="text-2xl font-bold mb-6">0406048412</p>
+            <p className="text-2xl font-bold mb-6">0406 048 412</p>
             <a
               href="/locations"
               className="inline-block bg-primary text-white font-bold py-3 px-10 rounded-lg hover:bg-gray-800 transition-colors"

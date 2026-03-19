@@ -74,7 +74,7 @@ export default function Booking() {
               </p>
               <div className="text-center">
                 <p className="text-gray-600 mb-2">Downtown Branch</p>
-                <p className="text-3xl font-bold text-secondary">0406048412</p>
+                <p className="text-3xl font-bold text-secondary">0406 048 412</p>
               </div>
             </div>
           </div>
