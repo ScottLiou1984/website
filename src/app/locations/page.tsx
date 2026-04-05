@@ -45,12 +45,12 @@ Lunch 12:00 PM - 2:00 PM`,
 
         {/* Content Section */}
         <div 
-          className="py-16 relative bg-fixed-desktop"
+          className="py-16 relative"
           style={{
             backgroundImage: 'url(/images/all_background.png)',
-            backgroundSize: 'cover',
+            backgroundSize: 'auto',
             backgroundPosition: 'center',
-            backgroundAttachment: 'fixed',
+            backgroundRepeat: 'repeat',
           }}
         >
           {/* Semi-transparent overlay */}

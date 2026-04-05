@@ -40,12 +40,12 @@ export default function Home() {
 
         {/* Values Section */}
         <section 
-          className="py-16 md:py-24 relative bg-fixed-desktop"
+          className="py-16 md:py-24 relative"
           style={{
             backgroundImage: 'url(/images/all_background.png)',
-            backgroundSize: 'cover',
+            backgroundSize: 'auto',
             backgroundPosition: 'center',
-            backgroundAttachment: 'fixed',
+            backgroundRepeat: 'repeat',
           }}
         >
           {/* Semi-transparent overlay */}
@@ -142,12 +142,12 @@ export default function Home() {
           </div>
         </section>
         <section 
-          className="py-16 md:py-24 relative bg-fixed-desktop"
+          className="py-16 md:py-24 relative"
           style={{
             backgroundImage: 'url(/images/all_background.png)',
-            backgroundSize: 'cover',
+            backgroundSize: 'auto',
             backgroundPosition: 'center',
-            backgroundAttachment: 'fixed',
+            backgroundRepeat: 'repeat',
           }}
         >
           {/* Semi-transparent overlay */}

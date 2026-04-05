@@ -24,12 +24,12 @@ export default function Menu() {
         </section>
 
         <div 
-          className="py-16 relative bg-fixed-desktop"
+          className="py-16 relative"
           style={{
             backgroundImage: 'url(/images/all_background.png)',
-            backgroundSize: 'cover',
+            backgroundSize: 'auto',
             backgroundPosition: 'center',
-            backgroundAttachment: 'fixed',
+            backgroundRepeat: 'repeat',
           }}
         >
           <div className="absolute inset-0 bg-black opacity-20"></div>
