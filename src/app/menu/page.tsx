@@ -23,7 +23,7 @@ export default function Menu() {
   }, [])
 
   return (
-    <>
+    <div>
       <Navigation />
       <main className="pt-20">
         <section 
@@ -44,13 +44,13 @@ export default function Menu() {
         <div 
           className="py-16 relative"
           style={{
-            backgroundImage: bgImage ? `url(${bgImage})` : 'none',
+            backgroundImage: 'url(/images/all_background.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
+            backgroundAttachment: 'fixed',
           }}
         >
-          {/* Semi-transparent overlay */}
-          <div className="absolute inset-0 bg-amber-50 opacity-80"></div>
+          <div className="absolute inset-0 bg-black opacity-20"></div>
           <div className="container-max relative z-10">
             <div className="flex justify-center">
               <div className="w-full max-w-3xl">
@@ -65,6 +65,6 @@ export default function Menu() {
         </div>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }

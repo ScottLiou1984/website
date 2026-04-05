@@ -3,7 +3,7 @@ import Footer from '@/components/Footer'
 
 export default function Drinks() {
   return (
-    <>
+    <div>
       <Navigation />
       <main className="pt-20">
         {/* Header Section with Background Image */}
@@ -25,32 +25,41 @@ export default function Drinks() {
         </section>
 
         {/* Menu Content */}
-        <div className="bg-gradient-to-b from-amber-50 to-orange-50">
-        <div className="container-max py-16">
+        <div 
+          className="py-16 relative"
+          style={{
+            backgroundImage: 'url(/images/all_background.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed',
+          }}
+        >
+          {/* Semi-transparent overlay */}
+          <div className="absolute inset-0 bg-black opacity-20"></div>
+          <div className="container-max relative z-10 py-16">
+            <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
+              {/* Drink Menu 1 */}
+              <div className="flex justify-center">
+                <img
+                  src="/images/drink_menu1.jpg"
+                  alt="Drink Menu 1"
+                  className="w-full max-w-full rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                />
+              </div>
 
-          <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
-            {/* Drink Menu 1 */}
-            <div className="flex justify-center">
-              <img
-                src="/images/drink_menu1.jpg"
-                alt="Drink Menu 1"
-                className="w-full max-w-full rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
-            </div>
-
-            {/* Drink Menu 2 */}
-            <div className="flex justify-center">
-              <img
-                src="/images/drink_menu2.jpg"
-                alt="Drink Menu 2"
-                className="w-full max-w-full rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
+              {/* Drink Menu 2 */}
+              <div className="flex justify-center">
+                <img
+                  src="/images/drink_menu2.jpg"
+                  alt="Drink Menu 2"
+                  className="w-full max-w-full rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                />
+              </div>
             </div>
           </div>
         </div>
-        </div>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }

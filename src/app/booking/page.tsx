@@ -3,7 +3,7 @@ import Footer from '@/components/Footer'
 
 export default function Booking() {
   return (
-    <>
+    <div>
       <Navigation />
       <main className="pt-20 pb-12">
         {/* Header Section with Background Image */}
@@ -25,8 +25,18 @@ export default function Booking() {
         </section>
 
         {/* Booking Content */}
-        <div className="bg-gradient-to-b from-amber-50 to-orange-50 py-16">
-          <div className="container-max max-w-4xl">
+        <div 
+          className="py-16 relative"
+          style={{
+            backgroundImage: 'url(/images/all_background.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed',
+          }}
+        >
+          {/* Semi-transparent overlay */}
+          <div className="absolute inset-0 bg-black opacity-20"></div>
+          <div className="container-max relative z-10 max-w-4xl">
             {/* Intro Section */}
             <div className="text-center mb-16">
               <p className="text-lg text-primary leading-relaxed mb-6 max-w-2xl mx-auto">
@@ -81,6 +91,6 @@ export default function Booking() {
         </div>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
