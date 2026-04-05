@@ -13,8 +13,8 @@ export default function Home() {
             backgroundImage: 'url(/images/home_background.png)',
           }}
         >
-          {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black opacity-50"></div>
+          {/* Semi-transparent Overlay */}
+          <div className="absolute inset-0 bg-black opacity-30"></div>
           
           {/* Content */}
           <div className="container-max text-center relative z-10">
@@ -39,8 +39,17 @@ export default function Home() {
         </section>
 
         {/* Values Section */}
-        <section className="py-16 md:py-24 bg-gradient-to-b from-amber-50 to-orange-50">
-          <div className="container-max">
+        <section 
+          className="py-16 md:py-24 relative"
+          style={{
+            backgroundImage: 'url(/images/all_background.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          {/* Semi-transparent overlay */}
+          <div className="absolute inset-0 bg-amber-50 opacity-75"></div>
+          <div className="container-max relative z-10">
             <div className="text-center mb-16">
               <h2 className="section-title">OUR VALUES</h2>
               <div className="w-20 h-1 bg-gradient-to-r from-secondary to-accent mx-auto mt-6"></div>
@@ -131,10 +140,17 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* Booking & Contact Section */}
-        <section className="py-16 md:py-24 bg-gradient-to-b from-orange-50 to-amber-50">
-          <div className="container-max">
+        <section 
+          className="py-16 md:py-24 relative"
+          style={{
+            backgroundImage: 'url(/images/all_background.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          {/* Semi-transparent overlay */}
+          <div className="absolute inset-0 bg-orange-50 opacity-75"></div>
+          <div className="container-max relative z-10">
             <div className="text-center mb-16">
               <h2 className="section-title">JOIN US TODAY</h2>
               <div className="w-20 h-1 bg-gradient-to-r from-secondary to-accent mx-auto mt-6"></div>
@@ -207,8 +223,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* CTA Section */}
         <section className="py-16 md:py-24 bg-primary text-white text-center">
           <div className="container-max">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Experience MUGII?</h2>
