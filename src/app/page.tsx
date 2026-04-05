@@ -192,12 +192,14 @@ export default function Home() {
                 <div className="px-8 pb-8">
                   <div className="space-y-4 text-gray-700 leading-relaxed text-sm">
                     <p>
-                      Monday - Sunday
+                      <strong>Monday ~ Sunday</strong>
                       <br />
-                      11:00 AM - 9:00 PM
+                      Dinner: 5:30 PM - 9:00 PM
                     </p>
-                    <p className="text-gray-500 text-xs">
-                      Walk-ins welcome anytime
+                    <p>
+                      <strong>Thursday ~ Sunday</strong>
+                      <br />
+                      Lunch: 12:00 PM - 2:00 PM
                     </p>
                   </div>
                 </div>
