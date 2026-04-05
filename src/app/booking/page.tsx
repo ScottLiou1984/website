@@ -26,7 +26,7 @@ export default function Booking() {
 
         {/* Booking Content */}
         <div 
-          className="py-16 relative"
+          className="py-16 relative bg-fixed-desktop"
           style={{
             backgroundImage: 'url(/images/all_background.png)',
             backgroundSize: 'cover',

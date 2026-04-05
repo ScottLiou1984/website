@@ -24,7 +24,7 @@ export default function Menu() {
         </section>
 
         <div 
-          className="py-16 relative"
+          className="py-16 relative bg-fixed-desktop"
           style={{
             backgroundImage: 'url(/images/all_background.png)',
             backgroundSize: 'cover',

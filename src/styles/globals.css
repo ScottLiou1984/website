@@ -77,3 +77,14 @@ body {
   font-family: 'Great Vibes', cursive;
   letter-spacing: 1px;
 }
+
+/* Background attachment for desktop, scroll for iPad/mobile */
+.bg-fixed-desktop {
+  background-attachment: scroll;
+}
+
+@media (min-width: 1024px) and (hover: hover) and (pointer: fine) {
+  .bg-fixed-desktop {
+    background-attachment: fixed;
+  }
+}

@@ -45,7 +45,7 @@ Lunch 12:00 PM - 2:00 PM`,
 
         {/* Content Section */}
         <div 
-          className="py-16 relative"
+          className="py-16 relative bg-fixed-desktop"
           style={{
             backgroundImage: 'url(/images/all_background.png)',
             backgroundSize: 'cover',
@@ -121,7 +121,7 @@ Lunch 12:00 PM - 2:00 PM`,
 
                   {/* Welcome Message */}
                   <div className="mt-12 text-center">
-                    <p className="text-gray-600 text-lg">
+                    <p className="text-white text-lg">
                       We look forward to serving you. Walk-ins welcome!
                     </p>
                   </div>
