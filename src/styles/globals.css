@@ -78,12 +78,12 @@ body {
   letter-spacing: 1px;
 }
 
-/* Background attachment for desktop, scroll for iPad/mobile */
+/* Background attachment - fixed for desktop, scroll for mobile/iPad */
 .bg-fixed-desktop {
   background-attachment: scroll;
 }
 
-@media (min-width: 1024px) and (hover: hover) and (pointer: fine) {
+@media (min-width: 1024px) {
   .bg-fixed-desktop {
     background-attachment: fixed;
   }
