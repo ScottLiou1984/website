@@ -37,7 +37,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
-            <p>&copy; 2024 MUGII. All rights reserved.</p>
+            <p>&copy; 2026 MUGII. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-secondary">Privacy Policy</a>
               <a href="#" className="hover:text-secondary">Terms of Service</a>
