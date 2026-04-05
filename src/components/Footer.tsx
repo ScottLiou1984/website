@@ -25,8 +25,6 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li><a href="/gift-cards" className="hover:text-secondary">Gift Cards</a></li>
               <li><a href="/booking" className="hover:text-secondary">Booking</a></li>
-              <li><a href="/" className="hover:text-secondary">Franchise</a></li>
-              <li><a href="/" className="hover:text-secondary">Loyalty</a></li>
             </ul>
           </div>
 
