@@ -2,26 +2,8 @@
 
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import { useEffect, useState } from 'react'
 
 export default function Menu() {
-  const [bgImage, setBgImage] = useState<string>('')
-
-  useEffect(() => {
-    const menuBottomImages = [
-      '/images/menu_bottom1.jpg',
-      '/images/menu_bottom2.jpg',
-      '/images/menu_bottom3.jpg',
-      '/images/menu_bottom4.jpg',
-      '/images/menu_bottom5.jpg',
-      '/images/menu_bottom6.jpg',
-      '/images/menu_bottom7.jpg',
-    ]
-
-    const randomIdx = Math.floor(Math.random() * menuBottomImages.length)
-    setBgImage(menuBottomImages[randomIdx])
-  }, [])
-
   return (
     <div>
       <Navigation />
