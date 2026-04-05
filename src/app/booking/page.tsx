@@ -39,7 +39,7 @@ export default function Booking() {
           <div className="container-max relative z-10 max-w-4xl">
             {/* Intro Section */}
             <div className="text-center mb-16">
-              <p className="text-lg text-primary leading-relaxed mb-6 max-w-2xl mx-auto">
+              <p className="text-lg text-white leading-relaxed mb-6 max-w-2xl mx-auto">
                 Experience the art of Japanese ramen at MUGII. Whether you&apos;re celebrating a special occasion or simply enjoying a memorable meal, we&apos;re excited to welcome you.
               </p>
             </div>
