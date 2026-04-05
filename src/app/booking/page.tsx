@@ -39,7 +39,7 @@ export default function Booking() {
               {/* Card - Party Size */}
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="flex items-start gap-4 flex-1">
-                  <div className="text-4xl flex-shrink-0">👥</div>
+                  <div className="text-4xl flex-shrink-0"></div>
                   <div className="flex-1">
                     <h3 className="text-primary font-bold text-lg mb-3">PARTY SIZE</h3>
                     <p className="text-gray-700 text-sm leading-relaxed mb-3">
@@ -55,7 +55,7 @@ export default function Booking() {
               {/* Card - Walk-ins */}
               <div className="bg-gradient-to-r from-secondary to-yellow-600 text-primary p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="flex items-start gap-4 flex-1">
-                  <div className="text-4xl flex-shrink-0">✨</div>
+                  <div className="text-4xl flex-shrink-0"></div>
                   <div className="flex-1">
                     <h3 className="font-bold text-lg mb-3">WALK-INS WELCOME</h3>
                     <p className="text-sm leading-relaxed">
@@ -68,7 +68,7 @@ export default function Booking() {
 
             {/* Direct Contact Section */}
             <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-secondary max-w-2xl mx-auto w-full">
-              <h3 className="text-primary font-bold text-xl mb-4">📞 DIRECT BOOKING</h3>
+              <h3 className="text-primary font-bold text-xl mb-4">DIRECT BOOKING</h3>
               <p className="text-gray-700 mb-6">
                 For immediate reservations or special requests, please contact us directly:
               </p>
