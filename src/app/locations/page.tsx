@@ -10,7 +10,11 @@ export default function Locations() {
       name: 'Downtown Branch',
       address: 'G10/27 Lonsdale St, Braddon ACT 2612',
       phone: '0406 048 412',
-      hours: 'Mon-Thu: 11AM-10PM, Fri-Sat: 11AM-11PM, Sun: 11AM-9PM',
+      hours: `Monday ~ Sunday
+Dinner 5:30 PM - 9:00 PM
+
+Thursday ~ Sunday
+Lunch 12:00 PM - 2:00 PM`,
       description: 'Our flagship location in the heart of Braddon.',
       neighborhood: 'Braddon',
       parking: 'Street parking & public lots nearby',
@@ -89,10 +93,8 @@ export default function Locations() {
                       {/* Hours Card */}
                       <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl border border-gray-200 hover:border-secondary transition-colors">
                         <h3 className="text-primary font-bold text-lg mb-3">OPENING HOURS</h3>
-                        <div className="text-gray-700 text-sm space-y-1">
-                          {location.hours.split(',').map((hour, idx) => (
-                            <p key={idx} className="leading-relaxed">{hour.trim()}</p>
-                          ))}
+                        <div className="text-gray-700 text-sm whitespace-pre-wrap">
+                          {location.hours}
                         </div>
                       </div>
 
