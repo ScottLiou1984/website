@@ -22,7 +22,7 @@ export default function GiftCards() {
               
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="text-secondary text-2xl font-bold">✓</div>
+                  <div className="text-secondary text-2xl font-bold"></div>
                   <div>
                     <h3 className="font-bold text-white">Choose Your Amount</h3>
                     <div className="flex gap-3 mt-2">
@@ -34,26 +34,10 @@ export default function GiftCards() {
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="text-secondary text-2xl font-bold">✓</div>
+                  <div className="text-secondary text-2xl font-bold"></div>
                   <div>
                     <h3 className="font-bold text-white">1 Year Validity</h3>
                     <p className="text-gray-200">Valid for 12 months from date of purchase</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="text-secondary text-2xl font-bold">✓</div>
-                  <div>
-                    <h3 className="font-bold text-white">Physical or Digital</h3>
-                    <p className="text-gray-200">Send immediately via email or order physical card</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="text-secondary text-2xl font-bold">✓</div>
-                  <div>
-                    <h3 className="font-bold text-white">Easy to Use</h3>
-                    <p className="text-gray-200">Simply present at any location or use online</p>
                   </div>
                 </div>
               </div>
